@@ -78,3 +78,8 @@ div>p[class="item1"] {
 .second-line {
   display: flex;
 }
+
+.logo {
+  width: 65px;
+  height: 16px;
+}
