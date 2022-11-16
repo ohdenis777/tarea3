@@ -37,8 +37,14 @@
 
 #button {
   position: absolute;
-  top: 595px;
-  left: 150px;
+  top: 608px;
+  left: 135px;
+}
+
+.button {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
 }
 
 
