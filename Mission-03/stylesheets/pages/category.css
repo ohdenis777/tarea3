@@ -13,7 +13,7 @@
 }
 
 .container-second-left {
-  width: 200px;
+  width: 180px;
   height: 500px;
   display: flex;
 }
@@ -34,6 +34,14 @@
   border: solid;
   background-color: brown;
 }
+
+.items {
+  text-align: center;
+}
+
+
+
+
 
 #button {
   position: absolute;
@@ -59,11 +67,11 @@
 .left-1 {
   font-size: 20px;
   color: brown;
-  border: 1px solid black;
+  border: 0.1px solid #C4C4C4;
 }
 
 div>p[class="item1"] {
-  border: 1px solid black;
+  border: 1px solid #C4C4C4;
   color: brown;
 }
 
@@ -73,10 +81,13 @@ div>p[class="item1"] {
 
 .first-line {
   display: flex;
+  justify-content: baseline
 }
 
 .second-line {
   display: flex;
+  justify-content: baseline;
+
 }
 
 .logo {
