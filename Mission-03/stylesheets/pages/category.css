@@ -15,16 +15,39 @@
 .container-second-left {
   width: 200px;
   height: 500px;
+  display: flex;
 }
 
 .container-second-center {
   width: 400px;
   height: 500px;
+  position: relative;
 }
+
+.downy-explain {
+  padding: 15px;
+  color: white;
+  position: absolute;
+  top: 480px;
+  left: 40px;
+  text-align: center;
+  border: solid;
+  background-color: brown;
+}
+
+#button {
+  position: absolute;
+  top: 595px;
+  left: 150px;
+}
+
+
 
 .container-second-right {
   width: 900px;
 }
+
+
 
 /* 생활용품 */
 .left-1 {
@@ -33,7 +56,7 @@
   border: 1px solid black;
 }
 
-div>p {
+div>p[class="item1"] {
   border: 1px solid black;
   color: brown;
 }
