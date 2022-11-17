@@ -1,5 +1,10 @@
 /* 카테고리별 추천 광고상품 */
 
+#container-first{
+  
+  padding: 300px 900px;
+  
+}
 .categori {
   font-size: 30px;
   font-weight: bolder;
@@ -49,11 +54,13 @@
   left: 135px;
 }
 
+
 .button {
   width: 13px;
   height: 13px;
   border-radius: 50%;
 }
+
 
 
 
@@ -75,6 +82,8 @@ div>p[class="item1"] {
   color: brown;
 }
 
+div>p[class="item2"] {color:aquamarine;}
+
 
 
 
@@ -93,4 +102,15 @@ div>p[class="item1"] {
 .logo {
   width: 65px;
   height: 16px;
+}
+
+.downy-explain2 {
+  padding: 15px;
+  color: white;
+  position: absolute;
+  top: 480px;
+  left: 40px;
+  text-align: center;
+  border: solid;
+  background-color: aquamarine;
 }
